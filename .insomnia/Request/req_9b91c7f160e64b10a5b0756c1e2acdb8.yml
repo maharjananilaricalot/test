@@ -1,0 +1,29 @@
+_id: req_9b91c7f160e64b10a5b0756c1e2acdb8
+type: Request
+parentId: fld_939c689c9c224f54b1a6fc4421a71e53
+modified: 1662443442310
+created: 1662442960037
+url: "{{ADMIN_URL}}/new/tasks/lists/assigned-task"
+name: ASSIGNED TASK LIST CODE AND TITLE
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_34653a4a868845768ce6745e00870b90
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - id: pair_c5deb0e4bf4941a39d08c05bc8be0745
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662442960037
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_71bc09072beb4d59b7e8630a56670139
+type: Request
+parentId: fld_8042867595d846cfb881891608f80479
+modified: 1662445482888
+created: 1662441300611
+url: "{{ADMIN_URL}}/clients/search/detail/individual/a9ee46b6e02e47c2810334bf26\
+  41427f"
+name: DETAIL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a94c49d52be74897bd7efc8a5cb72fbc
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_d7f8eeca053d4b4a80ce4d95455cba5a
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662441300611
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

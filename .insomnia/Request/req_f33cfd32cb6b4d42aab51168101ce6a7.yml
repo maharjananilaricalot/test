@@ -1,0 +1,39 @@
+_id: req_f33cfd32cb6b4d42aab51168101ce6a7
+type: Request
+parentId: fld_1ffff71620a14478b9f3cd36516cfadd
+modified: 1662448014569
+created: 1662447921746
+url: "{{ADMIN_URL}}/messages/company2889_arica@yopmail.com/search"
+name: SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageNumber": 1,
+        "pageSize": 25,
+        "searchParameter": ""
+    }
+parameters: []
+headers:
+  - id: pair_7d0a0ec2800f41b78eba930a047bf881
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_bd3e06bbe669414394e6e5cdd9ba10a0
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_720b2278eb44456d834f1a1afaab413f
+authentication: {}
+metaSortKey: -1662447921746
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

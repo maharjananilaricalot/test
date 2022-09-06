@@ -1,0 +1,29 @@
+_id: req_e42e771999fb43628e10e4653ae85df4
+type: Request
+parentId: fld_c31ab42221fd4ba2acd12b4588ba4745
+modified: 1662441502533
+created: 1662441491903
+url: "{{ADMIN_URL}}/clients/search/detail/business/333ba94472bd486aa4f933be1d8961fb"
+name: DETAIL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a94c49d52be74897bd7efc8a5cb72fbc
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_d7f8eeca053d4b4a80ce4d95455cba5a
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662440142757
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

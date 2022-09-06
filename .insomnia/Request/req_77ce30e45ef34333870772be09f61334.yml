@@ -1,0 +1,29 @@
+_id: req_77ce30e45ef34333870772be09f61334
+type: Request
+parentId: fld_4cb48add03bb4e50843511dad0e9a40c
+modified: 1662445405756
+created: 1662443143775
+url: "{{ADMIN_URL}}/clients"
+name: FOR DROP DOWN
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7c1da873c0e644c592c7c23268ddde2b
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_58fb10cce57c4a42a1cbcf8f379fe681
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662443143775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_7cc569ec55b348728b2f299c284ceea1
+type: Request
+parentId: fld_939c689c9c224f54b1a6fc4421a71e53
+modified: 1662443523374
+created: 1662443502638
+url: "{{ADMIN_URL}}/new/tasks/search/assigned-by-me"
+name: ASSIGNED BY ME
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageNumber": 1,
+        "pageSize": 25,
+        "searchParameter": "",
+        "status": [
+            "INPROGRESS"
+        ],
+        "priority": [
+            "MEDIUM"
+        ],
+        "tags": []
+    }
+parameters: []
+headers:
+  - id: pair_875257579bfc4ec9b68182a332a07c77
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_bcf3c7e5bd22430da8ef4d98615e1639
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_eca98a3dccc74f7195f3a95f84b153ad
+authentication: {}
+metaSortKey: -1662443242311
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_a17db06b61b0435e9c5338c586fcc991
+type: Request
+parentId: fld_12942de12dc548f2ab4100e0e9499562
+modified: 1662439096041
+created: 1662438984903
+url: "{{ADMIN_URL}}/invoices/detail/INV00003"
+name: INVOICE DETAIL BY INVOICE NUMBER
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_57890b34343e4cbfa21da19f73c8775f
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - id: pair_a3df6468fac54051841eb7034478d130
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662438984903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_9f443b36e10b41318b126bd96b293ce2
+type: Request
+parentId: fld_2ec04f8bb3a641b898c56687012e824e
+modified: 1662374525568
+created: 1662374012384
+url: "{{ADMIN_URL}}/clients/Business/confirm/4793ee5ab26848229082c606682c14a3"
+name: DELETE CONFIRM
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_0b3286a70421488591ca8c1a1f31d67b
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - id: pair_3fe7ba6454c74733bbb8905434f12f6c
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662364203988
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

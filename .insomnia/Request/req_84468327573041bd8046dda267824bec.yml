@@ -1,0 +1,39 @@
+_id: req_84468327573041bd8046dda267824bec
+type: Request
+parentId: fld_1e028ed5b1b143f0bcc17b406b501488
+modified: 1662445653818
+created: 1662445588077
+url: "{{ADMIN_URL}}/status"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "clientId": "a9ee46b6e02e47c2810334bf2641427f",
+        "clientType": "individual",
+        "year": ""
+    }
+parameters: []
+headers:
+  - id: pair_666c0e9115f7400ead7c06299a147c9e
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - id: pair_e59a492207c446179f40033b798248aa
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_18d8de3cce3b44d19f173dffd255cd44
+authentication: {}
+metaSortKey: -1662445588077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_ea5b926e76d348599be2076aabe11463
+type: Request
+parentId: fld_e48cba8c419d48089b791b96205db57f
+modified: 1662445120995
+created: 1662445049526
+url: "{{ADMIN_URL}}/users"
+name: USER LIST FOR DROP DOWN
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1c2bb1b9fe7042e39adc81319f166d99
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_f0cd261ee516481fb1f5769689af77b5
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662445049526
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

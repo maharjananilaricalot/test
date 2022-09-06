@@ -1,0 +1,34 @@
+_id: req_6a6df00eb61b493e87017b6bc146f48d
+type: Request
+parentId: fld_48dda8beab044dd88279ccf5e2c78591
+modified: 1662445468327
+created: 1662444943401
+url: "{{ADMIN_URL}}/tag/all"
+name: FETCH ALL TAG
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - id: pair_d34af71879bc4abb9e42883e350cd3e7
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_8a5e7be0342f45469944e687b7f90f08
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_fd72e7f0258b4b29a146bab815d38db2
+authentication: {}
+metaSortKey: -1662444943401
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_e62c9e17755d4b1b9ffc4e7b01ec10a7
+type: Request
+parentId: fld_06376cb25f714a9e8ec08a9da6fd6144
+modified: 1662446924526
+created: 1662293310862
+url: "{{ADMIN_URL}}/auths"
+name: LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": "company2889_arica@yopmail.com",
+    	"password": "TEST@123",
+    	"accessCode": "ticket2889"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_efade3a07ead480a9588a1a2f0457312
+  - name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    id: pair_a5806e8f4ebb4c01958efdb52f257fe6
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1662354024616
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: off

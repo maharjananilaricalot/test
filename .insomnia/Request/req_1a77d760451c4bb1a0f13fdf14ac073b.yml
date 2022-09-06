@@ -1,0 +1,29 @@
+_id: req_1a77d760451c4bb1a0f13fdf14ac073b
+type: Request
+parentId: fld_2ec04f8bb3a641b898c56687012e824e
+modified: 1662374028887
+created: 1662364203938
+url: "{{ADMIN_URL}}/clients/BUSINESS/request/4793ee5ab26848229082c606682c14a3"
+name: DELETE  REQUEST
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_5e85fbe719874e798224ab7104389b27
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - id: pair_b7b6ad0c0cc24af18afe00e607e462ee
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662364203938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

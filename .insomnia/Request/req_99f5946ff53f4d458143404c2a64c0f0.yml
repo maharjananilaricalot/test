@@ -1,0 +1,29 @@
+_id: req_99f5946ff53f4d458143404c2a64c0f0
+type: Request
+parentId: fld_50de1b1d4083415d90dada1dacddc3f0
+modified: 1662358248801
+created: 1662358135785
+url: "{{ADMIN_URL}}/roles/permissions"
+name: FETCH PERMISSION LIST
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ec0fd8e6146540dc88f77d0b764f2905
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - id: pair_e2853dfbc75d42188515f22803c635f0
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662358135785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

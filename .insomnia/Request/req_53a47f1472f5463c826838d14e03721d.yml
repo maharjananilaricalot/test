@@ -1,0 +1,29 @@
+_id: req_53a47f1472f5463c826838d14e03721d
+type: Request
+parentId: fld_29bb3a29ef4f43bd8ea1b906525844e7
+modified: 1662445240687
+created: 1662445150772
+url: "{{ADMIN_URL}}/task-templates"
+name: TASK TEMPLATE FOR DROP DOWN
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_505361aba32a48f89e137c00f07cd7fa
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_87b68ae481674c01b518ca83c01bf24f
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662445150772
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
