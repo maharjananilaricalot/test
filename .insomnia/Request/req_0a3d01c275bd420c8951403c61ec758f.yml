@@ -1,0 +1,39 @@
+_id: req_0a3d01c275bd420c8951403c61ec758f
+type: Request
+parentId: fld_e48cba8c419d48089b791b96205db57f
+modified: 1662453251609
+created: 1662453093357
+url: "{{ADMIN_URL}}/users/search/detail/user-id/ALL"
+name: USER BREAK AND WORK TIME
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "userIds": [
+            "company2889_arica@yopmail.com"
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c03dbb0509e45c4b5f860f92c292b28
+  - id: pair_ffc9ce61f5c845baa48e2373aeb261b6
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_f6fa007362e646bfa3f3f4b1b35993a9
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+authentication: {}
+metaSortKey: -1662453093357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

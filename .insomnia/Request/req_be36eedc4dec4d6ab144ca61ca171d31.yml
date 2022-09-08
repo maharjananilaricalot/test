@@ -1,10 +1,10 @@
-_id: req_f33cfd32cb6b4d42aab51168101ce6a7
+_id: req_be36eedc4dec4d6ab144ca61ca171d31
 type: Request
-parentId: fld_1ffff71620a14478b9f3cd36516cfadd
-modified: 1662452571410
-created: 1662447921746
-url: "{{ADMIN_URL}}/messages/company2889_arica@yopmail.com/search"
-name: SEARCH
+parentId: fld_9b9dd89a6a3a4d4cb795f679e28b6fc2
+modified: 1662556340222
+created: 1662455809069
+url: "{{ADMIN_URL}}/clients/pending/review"
+name: PENDING REVIEW SEARCH
 description: ""
 method: POST
 body:
@@ -17,19 +17,19 @@ body:
     }
 parameters: []
 headers:
-  - id: pair_7d0a0ec2800f41b78eba930a047bf881
+  - id: pair_4f240bc5607944179e9f8369b158d97d
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_bd3e06bbe669414394e6e5cdd9ba10a0
+  - id: pair_3914543599b748c0b2607a1f086c8aec
     name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
     description: ""
   - name: Content-Type
     value: application/json
-    id: pair_720b2278eb44456d834f1a1afaab413f
+    id: pair_19013daa1cac4ef2a0a5ed6100fb313a
 authentication: {}
-metaSortKey: -1662447921746
+metaSortKey: -1662455809069
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

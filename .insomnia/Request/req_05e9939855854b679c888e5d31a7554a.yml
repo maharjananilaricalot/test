@@ -1,25 +1,25 @@
-_id: req_ea5b926e76d348599be2076aabe11463
+_id: req_05e9939855854b679c888e5d31a7554a
 type: Request
-parentId: fld_e48cba8c419d48089b791b96205db57f
-modified: 1662455779563
-created: 1662445049526
-url: "{{ADMIN_URL}}/users"
-name: USER LIST FOR DROP DOWN
+parentId: fld_31644871837041799e94df10fa79516b
+modified: 1662459304110
+created: 1662459298404
+url: "{{ADMIN_URL}}/status/individual/company2889_arica@yopmail.com"
+name: STATUS SEARCH WITH TAX REPRESENTATIVE
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_1c2bb1b9fe7042e39adc81319f166d99
+  - id: pair_f85eeccde4934d1493fc312d153d78fd
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_f0cd261ee516481fb1f5769689af77b5
+  - id: pair_07387327cab348d69997a1535b922ec8
     name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
     description: ""
 authentication: {}
-metaSortKey: -1662445049526
+metaSortKey: -1662458875799.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

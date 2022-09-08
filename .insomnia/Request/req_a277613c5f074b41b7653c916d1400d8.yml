@@ -1,13 +1,18 @@
 _id: req_a277613c5f074b41b7653c916d1400d8
 type: Request
 parentId: fld_3c55be4982b84caeadafadaf04c9e694
-modified: 1662447857075
+modified: 1662481908949
 created: 1662372837674
 url: "{{ADMIN_URL}}/clients/INDIVIDUAL/confirm/a9ee46b6e02e47c2810334bf2641427f"
 name: DELETE CONFIRM
 description: ""
 method: DELETE
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"createProfile":false
+    }
 parameters: []
 headers:
   - id: pair_0b3286a70421488591ca8c1a1f31d67b
@@ -18,6 +23,9 @@ headers:
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_7372340378fb4d40af0a0f32ef84f1d4
 authentication: {}
 metaSortKey: -1662372837674
 isPrivate: false

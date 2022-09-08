@@ -1,25 +1,25 @@
-_id: req_ea5b926e76d348599be2076aabe11463
+_id: req_3e591be34f5b4f3d9af07fe88559c886
 type: Request
-parentId: fld_e48cba8c419d48089b791b96205db57f
-modified: 1662455779563
-created: 1662445049526
-url: "{{ADMIN_URL}}/users"
-name: USER LIST FOR DROP DOWN
+parentId: fld_996f0017057d44759b44fd5ae10fdf75
+modified: 1662452868010
+created: 1662452815996
+url: "{{ADMIN_URL}}/settings/working-hour"
+name: WORKING HOUR
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_1c2bb1b9fe7042e39adc81319f166d99
+  - id: pair_7697b37143cb4a4a89e621ea4f6acf3b
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_f0cd261ee516481fb1f5769689af77b5
+  - id: pair_8e3fe92e93be4bcbaf6e0de0a60617b7
     name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
     description: ""
 authentication: {}
-metaSortKey: -1662445049526
+metaSortKey: -1662452815996
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

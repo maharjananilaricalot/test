@@ -1,9 +1,9 @@
-_id: req_f33cfd32cb6b4d42aab51168101ce6a7
+_id: req_9a49571e27324331a2f05c7a894c9b44
 type: Request
-parentId: fld_1ffff71620a14478b9f3cd36516cfadd
-modified: 1662452571410
-created: 1662447921746
-url: "{{ADMIN_URL}}/messages/company2889_arica@yopmail.com/search"
+parentId: fld_161a76952dab419889a876aab408983a
+modified: 1662611455404
+created: 1662452731433
+url: "{{ADMIN_URL}}/appointments/search"
 name: SEARCH
 description: ""
 method: POST
@@ -12,24 +12,29 @@ body:
   text: |-
     {
         "pageNumber": 1,
-        "pageSize": 25,
-        "searchParameter": ""
+        "pageSize": 100,
+        "fromDate": "2022-09-04",
+        "toDate": "2022-09-11",
+        "searchParameter": "",
+        "taxRepresentatives": [
+            "company2889_arica@yopmail.com"
+        ]
     }
 parameters: []
 headers:
-  - id: pair_7d0a0ec2800f41b78eba930a047bf881
+  - id: pair_9b98bfdc17b842a8bec4c0734499747f
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_bd3e06bbe669414394e6e5cdd9ba10a0
+  - id: pair_6db7735bdf6f460985fce7105bb29e4b
     name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
     description: ""
   - name: Content-Type
     value: application/json
-    id: pair_720b2278eb44456d834f1a1afaab413f
+    id: pair_bbe11541b680469ea5421ec9689c7aec
 authentication: {}
-metaSortKey: -1662447921746
+metaSortKey: -1662452731433
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,49 @@
+_id: req_a46140664fcb450e99620381308d5948
+type: Request
+parentId: fld_49c115f79ef9495082e31c5f37e58a8f
+modified: 1662611334949
+created: 1662459742241
+url: "{{ADMIN_URL}}/clients/individual/tax-file/e-file/search"
+name: TAX FILING STATUS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageSize": 25,
+        "pageNumber": 1,
+        "status": [
+            "Prep Efile",
+            "E-filed",
+            "Parked",
+            "Rejected",
+            "Mailed"
+        ],
+        "taxRepresentative": [
+            "company2889_arica@yopmail.com"
+        ],
+        "searchParameter": ""
+    }
+parameters: []
+headers:
+  - id: pair_aa9a0700b26d4344a94d57d4afb544d7
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_8ea045e4657142b1b83a7d8080b5fc31
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_0824525a3d9f4fd1a000238fe8a347b4
+authentication: {}
+metaSortKey: -1662459880611.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

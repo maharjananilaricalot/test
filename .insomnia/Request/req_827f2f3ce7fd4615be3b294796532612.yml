@@ -1,10 +1,11 @@
-_id: req_f33cfd32cb6b4d42aab51168101ce6a7
+_id: req_827f2f3ce7fd4615be3b294796532612
 type: Request
 parentId: fld_1ffff71620a14478b9f3cd36516cfadd
-modified: 1662452571410
-created: 1662447921746
-url: "{{ADMIN_URL}}/messages/company2889_arica@yopmail.com/search"
-name: SEARCH
+modified: 1662453509828
+created: 1662451798080
+url: "{{ADMIN_URL}}/messages/company2889_arica@yopmail.com/search/7e538c97570d4\
+  ea28586081de6bbc9b2"
+name: SEARCH DETAIL
 description: ""
 method: POST
 body:
@@ -29,7 +30,7 @@ headers:
     value: application/json
     id: pair_720b2278eb44456d834f1a1afaab413f
 authentication: {}
-metaSortKey: -1662447921746
+metaSortKey: -1662446754911.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

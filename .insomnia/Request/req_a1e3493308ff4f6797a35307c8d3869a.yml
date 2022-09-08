@@ -1,25 +1,29 @@
-_id: req_ea5b926e76d348599be2076aabe11463
+_id: req_a1e3493308ff4f6797a35307c8d3869a
 type: Request
-parentId: fld_e48cba8c419d48089b791b96205db57f
-modified: 1662455779563
-created: 1662445049526
-url: "{{ADMIN_URL}}/users"
-name: USER LIST FOR DROP DOWN
+parentId: fld_5d910eb6ead845a29d9f590676723a21
+modified: 1662487146373
+created: 1662454178518
+url: "{{ADMIN_URL}}/invoices/detail/INV00001"
+name: DETAIL
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_1c2bb1b9fe7042e39adc81319f166d99
+  - id: pair_72f01e0782ce4dd4a4c19b79e86fea12
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_f0cd261ee516481fb1f5769689af77b5
+  - id: pair_862f46ce1eba4b318e00983780a7206c
     name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
     description: ""
+  - id: pair_b198ed8ae7c74000b55741fcf843dcb1
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
-metaSortKey: -1662445049526
+metaSortKey: -1662454178518
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,25 +1,25 @@
-_id: req_ea5b926e76d348599be2076aabe11463
+_id: req_8b2bf9b28920430fb25e95b39a4d69a8
 type: Request
 parentId: fld_e48cba8c419d48089b791b96205db57f
-modified: 1662455779563
-created: 1662445049526
-url: "{{ADMIN_URL}}/users"
-name: USER LIST FOR DROP DOWN
+modified: 1662458754920
+created: 1662458648900
+url: "{{ADMIN_URL}}/switch-user/list/all"
+name: SWITCH USERS
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_1c2bb1b9fe7042e39adc81319f166d99
+  - id: pair_ea391051891848969fd8c08380f861cd
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_f0cd261ee516481fb1f5769689af77b5
+  - id: pair_aac649d8dc484c28bf51290301d79d43
     name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
     description: ""
 authentication: {}
-metaSortKey: -1662445049526
+metaSortKey: -1662458648900
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

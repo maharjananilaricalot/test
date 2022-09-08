@@ -1,25 +1,25 @@
-_id: req_ea5b926e76d348599be2076aabe11463
+_id: req_5fc93bdd014d491986bcb796b61f6538
 type: Request
-parentId: fld_e48cba8c419d48089b791b96205db57f
-modified: 1662455779563
-created: 1662445049526
-url: "{{ADMIN_URL}}/users"
-name: USER LIST FOR DROP DOWN
+parentId: fld_1e028ed5b1b143f0bcc17b406b501488
+modified: 1662458887590
+created: 1662458816203
+url: "{{ADMIN_URL}}/status/search/criteria"
+name: STATUS SEARCH CRITERIA
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_1c2bb1b9fe7042e39adc81319f166d99
+  - id: pair_2dc6e2b720d344b087245fc6a5e8e1dc
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_f0cd261ee516481fb1f5769689af77b5
+  - id: pair_99c51ed2af954c5494587be7349bc0c3
     name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
     description: ""
 authentication: {}
-metaSortKey: -1662445049526
+metaSortKey: -1662458816203
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
