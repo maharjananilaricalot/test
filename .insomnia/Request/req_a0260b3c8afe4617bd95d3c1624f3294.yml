@@ -1,0 +1,39 @@
+_id: req_a0260b3c8afe4617bd95d3c1624f3294
+type: Request
+parentId: fld_8042867595d846cfb881891608f80479
+modified: 1665475032012
+created: 1665473484755
+url: "{{ADMIN_URL}}/clients/search/individual"
+name: SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageNumber": 1,
+        "pageSize": 25,
+        "searchParameter": "",
+        "sortField": "filingStatus",
+        "sortOrder": "asc",
+        "tags": [],
+    		"taxRepresentativeSearchParameter":"c",
+    		"taxRepresentatives":[""]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7c1465afe89540bfba970624178da7de
+  - name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    id: pair_6a0f8368ecd84162a753b74a2238b841
+authentication: {}
+metaSortKey: -1662441300661
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

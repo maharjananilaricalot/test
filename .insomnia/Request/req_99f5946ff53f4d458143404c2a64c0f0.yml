@@ -1,7 +1,7 @@
 _id: req_99f5946ff53f4d458143404c2a64c0f0
 type: Request
 parentId: fld_50de1b1d4083415d90dada1dacddc3f0
-modified: 1662358248801
+modified: 1665476984152
 created: 1662358135785
 url: "{{ADMIN_URL}}/roles/permissions"
 name: FETCH PERMISSION LIST

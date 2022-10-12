@@ -1,0 +1,39 @@
+_id: req_2643800d33ee4b92befaf53bb9679492
+type: Request
+parentId: fld_c31ab42221fd4ba2acd12b4588ba4745
+modified: 1665475533384
+created: 1664272769332
+url: "{{ADMIN_URL}}/clients/search/business"
+name: SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageNumber": 1,
+        "pageSize": 25,
+        "searchParameter": "",
+        "sortField": "filingStatus",
+        "sortOrder": "asc",
+        "tags": [],
+    	"taxRepresentativeSearchParameter":"c",
+    	"taxRepresentatives":[""]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7c1465afe89540bfba970624178da7de
+  - name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    id: pair_6a0f8368ecd84162a753b74a2238b841
+authentication: {}
+metaSortKey: -1664272769332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

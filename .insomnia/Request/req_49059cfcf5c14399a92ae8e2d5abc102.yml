@@ -1,0 +1,25 @@
+_id: req_49059cfcf5c14399a92ae8e2d5abc102
+type: Request
+parentId: fld_646f0e21dccc4e20bd1f661711613a38
+modified: 1665551841683
+created: 1665487977800
+url: "{{ADMIN_URL}}/report/modules"
+name: REPORT MOUDELS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d53c72fad1fe49ba88a4f97628e0580f
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1665487977800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

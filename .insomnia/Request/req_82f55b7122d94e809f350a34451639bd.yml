@@ -1,0 +1,42 @@
+_id: req_82f55b7122d94e809f350a34451639bd
+type: Request
+parentId: fld_8d08de247a47491db6d1d85ba9598429
+modified: 1665550169764
+created: 1665546888934
+url: "{{ADMIN_URL}}/clients/individual/tax-file/e-file/search"
+name: SEARCH EFILE (INDIVIDUAL)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageSize": 25,
+        "pageNumber": 1,
+        "status": [
+           "Open"
+        ],
+        "taxRepresentative": [
+            "three_ticket2889@yopmail.com"
+        ],
+    	"taxFilingStatus":["PAID"],
+        "searchParameter": ""
+    }
+parameters: []
+headers:
+  - id: pair_c5a9348fab2145688999ed596906e5be
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_e63c79a135f14cde94a5365901642519
+authentication: {}
+metaSortKey: -1665546888934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

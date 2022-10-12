@@ -1,25 +1,21 @@
-_id: req_b965bf413e7147f2aec476b784de015b
+_id: req_c4f00f74cdd04f60b258159e366fbf39
 type: Request
-parentId: fld_0be594d4e5b244d69b97f1574b60a158
-modified: 1665480433720
-created: 1662459651124
+parentId: fld_8d08de247a47491db6d1d85ba9598429
+modified: 1665550031897
+created: 1665546573381
 url: "{{ADMIN_URL}}/clients/tax-file/e-file/status"
-name: STATUS
+name: TAX FILE STATUS
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_6db0a17ad8184fd68e754a1df5382ae6
+  - id: pair_02b53fc583514731947f8599149a687d
     name: "{{TOKEN_HEADER}}"
     value: "{{TOKEN}}"
     description: ""
-  - id: pair_338ef5b9f7114b3ea441b1cd94bcbe87
-    name: "{{TIME_ZONE_HEADER}}"
-    value: "{{TIME_ZONE}}"
-    description: ""
 authentication: {}
-metaSortKey: -1662459651124
+metaSortKey: -1665546573381
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

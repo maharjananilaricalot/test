@@ -1,0 +1,33 @@
+_id: req_5c4b3a937bd948b6a5424ce2934856b5
+type: Request
+parentId: fld_646f0e21dccc4e20bd1f661711613a38
+modified: 1665551842380
+created: 1665488413042
+url: "{{ADMIN_URL}}/clients/individual/tax-file/signature-pending/report"
+name: EFILING WAITING
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - id: pair_8078abcd23904fb680ffdedae44471b3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_ade8bdc8d6f24970a32f37e1cf9ccb62
+authentication: {}
+metaSortKey: -1665488413042
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

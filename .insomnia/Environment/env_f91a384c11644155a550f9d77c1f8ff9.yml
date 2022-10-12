@@ -1,12 +1,12 @@
 _id: env_f91a384c11644155a550f9d77c1f8ff9
 type: Environment
 parentId: env_84f4ab95dc07f96da4749796023438e849765210
-modified: 1662486742292
+modified: 1664274365722
 created: 1662351821426
 name: DEV
 data:
   TOKEN: "{% response 'body', 'req_e62c9e17755d4b1b9ffc4e7b01ec10a7',
-    'b64::JC5kYXRhLnRva2Vu::46b', 'when-expired', 4500 %}"
+    'b64::JC5kYXRhLnRva2Vu::46b', 'always', 4500 %}"
   ADMIN_URL: https://dev.pacesetterapp.com/atom-manager/v1
   SYSTEM_URL: https://dev.pacesetterapp.com/atom-admin/v1
   CLIENT_URL: https://dev.pacesetterapp.com/atom-client/v1
