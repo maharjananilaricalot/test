@@ -1,0 +1,34 @@
+_id: req_06bd3c8a624243f2bfa57ab63f448c88
+type: Request
+parentId: fld_e48cba8c419d48089b791b96205db57f
+modified: 1665572320343
+created: 1665563239577
+url: "{{ADMIN_URL}}/users/reassign/tax-representative"
+name: REASSIGN TAX REPRESENTATIVE
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"newTaxRepresentative":"second_ticket2889@yopmail.com",
+    	"oldTaxRepresentative":"three_ticket2889@yopmail.com"
+    }
+parameters: []
+headers:
+  - id: pair_efb501c965ef43beac0a915b6c5228c7
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_6728a588979f486085437937044c258c
+authentication: {}
+metaSortKey: -1665563239577
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

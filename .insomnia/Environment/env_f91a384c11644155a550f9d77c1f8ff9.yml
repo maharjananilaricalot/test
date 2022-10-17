@@ -1,7 +1,7 @@
 _id: env_f91a384c11644155a550f9d77c1f8ff9
 type: Environment
 parentId: env_84f4ab95dc07f96da4749796023438e849765210
-modified: 1664274365722
+modified: 1666010407374
 created: 1662351821426
 name: DEV
 data:
@@ -13,6 +13,10 @@ data:
   TOKEN_HEADER: X-XSRF-TOKEN
   TIME_ZONE: Asia/Kathmandu
   TIME_ZONE_HEADER: X-TIME-ZONE
+  SYSTEM_TOKEN: "{% response 'body', 'req_6bf9c198e23046dead29344717dd5eb4',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'always', 4500 %}"
+  CLIENT_TOKEN: "{% response 'body', 'req_dd099cbf01ea454d855aed63301966d5',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'when-expired', 4500 %}"
 dataPropertyOrder:
   "&":
     - TOKEN
@@ -22,6 +26,8 @@ dataPropertyOrder:
     - TOKEN_HEADER
     - TIME_ZONE
     - TIME_ZONE_HEADER
+    - SYSTEM_TOKEN
+    - CLIENT_TOKEN
 color: null
 isPrivate: false
 metaSortKey: 1662351821426

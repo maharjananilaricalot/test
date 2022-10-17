@@ -1,0 +1,33 @@
+_id: req_f92bc707ad7e474d816deea522092758
+type: Request
+parentId: fld_747a637adaba40bbb68a63292c4009db
+modified: 1666008020067
+created: 1666002475634
+url: "{{SYSTEM_URL}}/terms/conditions"
+name: ADD
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title":"PHello World1",
+    	"termsAndConditions":"sdfadsfadsfadfadfadfa"
+    }
+parameters: []
+headers:
+  - id: pair_71dcfba48b2c48e682e319934c87704f
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666002475634
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_b0fbe7fa2bb743199e9ee8f26b5522b8
+type: Request
+parentId: fld_747a637adaba40bbb68a63292c4009db
+modified: 1666007995560
+created: 1666005888842
+url: "{{SYSTEM_URL}}/terms/conditions/31ef992ec7e146deb7c777e7e6150780"
+name: UPDATE
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title":"Hello",
+    	"termsAndConditions":"ddddd"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_02421e37e5e042ee831b630a9945c421
+  - id: pair_9e1cce8477c144bb904a76cdeb332ca8
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666005888842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

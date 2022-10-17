@@ -1,0 +1,30 @@
+_id: req_dd099cbf01ea454d855aed63301966d5
+type: Request
+parentId: fld_58b580a2ec724bcd80b2979de82dc4d7
+modified: 1666009865414
+created: 1666009678031
+url: "{{CLIENT_URL}}/auths"
+name: LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "userName": "devorg_client@yopmail.com",
+        "password": "TEST@123",
+        "accessCode": "devorg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666009678031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

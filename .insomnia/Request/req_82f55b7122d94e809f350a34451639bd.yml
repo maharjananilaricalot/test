@@ -1,7 +1,7 @@
 _id: req_82f55b7122d94e809f350a34451639bd
 type: Request
 parentId: fld_8d08de247a47491db6d1d85ba9598429
-modified: 1665550169764
+modified: 1665658617485
 created: 1665546888934
 url: "{{ADMIN_URL}}/clients/individual/tax-file/e-file/search"
 name: SEARCH EFILE (INDIVIDUAL)
@@ -14,12 +14,8 @@ body:
         "pageSize": 25,
         "pageNumber": 1,
         "status": [
-           "Open"
+        
         ],
-        "taxRepresentative": [
-            "three_ticket2889@yopmail.com"
-        ],
-    	"taxFilingStatus":["PAID"],
         "searchParameter": ""
     }
 parameters: []

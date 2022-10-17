@@ -1,0 +1,30 @@
+_id: req_8c3e92fc3c074aa795fcf90acbf05670
+type: Request
+parentId: fld_aa7d6be19d9c4fce88c77c252a49ac6e
+modified: 1665564011639
+created: 1665564008652
+url: "{{ADMIN_URL}}/ping/enable"
+name: ENABLE PING
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "user":"admin",
+        "passCode":"98@@76@@54"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b65fff9474b341a2bd191a59137167bd
+authentication: {}
+metaSortKey: -1665563601517.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

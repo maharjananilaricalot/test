@@ -1,0 +1,29 @@
+_id: req_6bf9c198e23046dead29344717dd5eb4
+type: Request
+parentId: fld_9043b2ac3a04482186895a496063a271
+modified: 1666000265036
+created: 1666000058226
+url: "{{SYSTEM_URL}}/auths"
+name: LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "userId":"aricadevtest@gmail.com",
+        "password":"TEST@55557"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666000058226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

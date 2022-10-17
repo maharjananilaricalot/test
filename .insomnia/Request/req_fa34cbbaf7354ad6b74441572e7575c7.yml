@@ -1,21 +1,21 @@
-_id: req_c4f00f74cdd04f60b258159e366fbf39
+_id: req_fa34cbbaf7354ad6b74441572e7575c7
 type: Request
-parentId: fld_8d08de247a47491db6d1d85ba9598429
-modified: 1665641482212
-created: 1665546573381
-url: "{{ADMIN_URL}}/clients/tax-file/e-file/status"
-name: TAX FILE STATUS
+parentId: fld_5ce27a71894f467b856b9e309faba5b4
+modified: 1666010370921
+created: 1666009976769
+url: "{{CLIENT_URL}}/clients/terms/conditions/Hello World"
+name: GET BY TITLE
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_02b53fc583514731947f8599149a687d
+  - id: pair_17b54db0a31844c898b5a22463bfb3ba
     name: "{{TOKEN_HEADER}}"
-    value: "{{TOKEN}}"
+    value: "{{CLIENT_TOKEN}}"
     description: ""
 authentication: {}
-metaSortKey: -1665546573381
+metaSortKey: -1666009976769
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

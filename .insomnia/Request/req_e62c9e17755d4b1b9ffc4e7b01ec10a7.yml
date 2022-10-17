@@ -1,7 +1,7 @@
 _id: req_e62c9e17755d4b1b9ffc4e7b01ec10a7
 type: Request
 parentId: fld_06376cb25f714a9e8ec08a9da6fd6144
-modified: 1665474001001
+modified: 1666010407634
 created: 1662293310862
 url: "{{ADMIN_URL}}/auths"
 name: LOGIN
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"userId": "company2889_arica@yopmail.com",
+    	"userId": "devorg_aricalot@yopmail.com",
     	"password": "TEST@123",
-    	"accessCode": "ticket2889"
+    	"accessCode": "devorg"
     }
 parameters: []
 headers:

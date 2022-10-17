@@ -1,9 +1,9 @@
 _id: req_5c4b3a937bd948b6a5424ce2934856b5
 type: Request
 parentId: fld_646f0e21dccc4e20bd1f661711613a38
-modified: 1665551842380
+modified: 1666000005648
 created: 1665488413042
-url: "{{ADMIN_URL}}/clients/individual/tax-file/signature-pending/report"
+url: '{{ADMIN_URL}}/clients/tax-file/signature-pending/report"SYST"sp'
 name: EFILING WAITING
 description: ""
 method: POST
@@ -11,7 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	
+    	"type":"",
+    	"searchParameter":"che",
+    	"sortField":"",
+    	"sortOrder":"asc"
     }
 parameters: []
 headers:

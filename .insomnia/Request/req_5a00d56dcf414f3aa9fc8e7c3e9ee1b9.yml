@@ -1,21 +1,21 @@
-_id: req_c4f00f74cdd04f60b258159e366fbf39
+_id: req_5a00d56dcf414f3aa9fc8e7c3e9ee1b9
 type: Request
-parentId: fld_8d08de247a47491db6d1d85ba9598429
-modified: 1665641482212
-created: 1665546573381
-url: "{{ADMIN_URL}}/clients/tax-file/e-file/status"
-name: TAX FILE STATUS
+parentId: fld_747a637adaba40bbb68a63292c4009db
+modified: 1666005886411
+created: 1666005526014
+url: "{{SYSTEM_URL}}/terms/conditions/31ef992ec7e146deb7c777e7e6150780"
+name: GET BY ID
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_02b53fc583514731947f8599149a687d
+  - id: pair_889feb3c8d2c47dcb86236ba5ea979a3
     name: "{{TOKEN_HEADER}}"
-    value: "{{TOKEN}}"
+    value: "{{SYSTEM_TOKEN}}"
     description: ""
 authentication: {}
-metaSortKey: -1665546573381
+metaSortKey: -1666005526014
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

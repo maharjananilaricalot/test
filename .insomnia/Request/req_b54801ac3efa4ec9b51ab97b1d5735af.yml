@@ -1,0 +1,38 @@
+_id: req_b54801ac3efa4ec9b51ab97b1d5735af
+type: Request
+parentId: fld_8d08de247a47491db6d1d85ba9598429
+modified: 1665920560114
+created: 1665641512302
+url: "{{ADMIN_URL}}/clients/tax-file/signature-pending/search"
+name: SIGNATURE PENDING SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type":"",
+    	"pageNumber":1,
+    	"pageSize":1000,
+    	"searchParameter":"",
+    	"sortOrder":"ASC",
+    	"sortField":"taxRepresentative"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2c5522572195423ab8c98c2acbc2eca0
+  - id: pair_fbc86a1c96614afeb9a88279ca59a716
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1665641512302
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
