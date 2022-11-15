@@ -1,0 +1,41 @@
+_id: req_e42b54f72139471fbce828a15bdb56ef
+type: Request
+parentId: fld_9a83fb751ef543859008311fd8e12636
+modified: 1668077141893
+created: 1668076793190
+url: "{{SYSTEM_URL}}/support/search"
+name: SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageNumber": 1,
+        "pageSize": 25,
+        "status": [
+            "CLOSE",
+            "IN_PROGRESS",
+            "PARKED",
+            "OPEN"
+        ],
+        "searchParameter": "",
+        "accessCode": ""
+    }
+parameters: []
+headers:
+  - id: pair_983f018fba664173884939f8dcbd75f3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667938047086.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

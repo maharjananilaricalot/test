@@ -1,0 +1,36 @@
+_id: req_9838693a7ee24044bebd96c15b0437bb
+type: Request
+parentId: fld_9376b8651d3247939bfd6a651ac33a24
+modified: 1667795358411
+created: 1667734460166
+url: "{{ADMIN_URL}}/clients/individual/view-data"
+name: VIEW SSN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "isAdmin": false,
+        "clientType": "individual",
+        "id": "132865d0b8f14f3f820c52e9d73d9116",
+        "type": "socialSecurityNumber"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e7bccbb055d540bbaf57acec5edfecdf
+  - id: pair_51f2648607fa4102b491aa2a1785f5ee
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667734434791.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

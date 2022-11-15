@@ -1,0 +1,35 @@
+_id: req_3ad95edda56f4a2c98aae07dd155a32b
+type: Request
+parentId: fld_d4ab00cea7e64cefacc3d46db32cd301
+modified: 1668328831889
+created: 1667299364270
+url: "{{SYSTEM_URL}}/company/search/on-boarding"
+name: SEARCH ONBOARDING
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"pageSize":10,
+    	"pageNumber":1,
+    	"searchParameter":"company8"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4cfde8cf687946829c8e14c0fe3f30fb
+  - id: pair_8784ed52c48345aea509a781f8ba4f54
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666128153694.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_29986840182f417cb5cc1d0d3a54d4fa
+type: Request
+parentId: fld_2e23ea65a1ff4b8a8df6da11e8e898fb
+modified: 1666151855666
+created: 1666087878494
+url: "{{CLIENT_URL}}/registration"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "fullName": "Test ttest",
+        "email": "test_arica2@yopmail.com",
+        "password": "TEST@123",
+        "confirmPassword": "TEST@123",
+        "taxRepresentative": "devorg_aricalot@yopmail.com",
+        "accessCode": "devorg",
+        "refId": "d684268181164d8ca2dbc71dd91a0619",
+    	"termsAndConditionsId":"a9a6dab1c41846ce9e4806f3d06f6bd2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666087878494
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

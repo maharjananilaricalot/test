@@ -1,0 +1,33 @@
+_id: req_a2d1bda6f35649f786badb616229f19f
+type: Request
+parentId: fld_5ce27a71894f467b856b9e309faba5b4
+modified: 1667366667601
+created: 1666082919603
+url: "{{CLIENT_URL}}/clients/public/terms/conditions"
+name: SEARCH
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_88b638a837634b5e8e5971fbbdddcadf
+  - id: pair_73446810c4b84516961b54ae7c68fd7b
+    name: "{{TOKEN_HEADER}}"
+    value: "{{CLIENT_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666082919603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

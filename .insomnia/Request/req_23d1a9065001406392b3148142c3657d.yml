@@ -1,0 +1,41 @@
+_id: req_23d1a9065001406392b3148142c3657d
+type: Request
+parentId: fld_f07d0dd0ebfa45aa89bf690139ad85d7
+modified: 1667734434892
+created: 1666170817202
+url: "{{CLIENT_URL}}/otp/request"
+name: REQUEST OTP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "clientId": "a63d15d193114a1ea274c0f35fb2ae60",
+        "clientType": "INDIVIDUAL",
+        "data": {
+            "type": "SIGNATURE",
+            "year": "2020",
+            "password": "TEST@123",
+            "refId": "DOCUMENT_a46d21d296224fa591367eb443a44ca7",
+            "documentType": "TAX_AUTHORIZATION"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_45cca81f9f114c6dbec62d2e276fa21f
+  - id: pair_81d8486be24f47ccbc587c81f1abe476
+    name: "{{TOKEN_HEADER}}"
+    value: "{{CLIENT_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666170817202
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

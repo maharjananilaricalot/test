@@ -1,0 +1,33 @@
+_id: req_a96e69ada0bc4cdcb9cd06efd270f48d
+type: Request
+parentId: fld_e723760ac1634fbc9ae4e439ef658177
+modified: 1667390643802
+created: 1667390493220
+url: "{{SYSTEM_URL}}/config/encrypt"
+name: ENCRYPT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"value":"abac"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d696628c9d6241dea8caedf52216444f
+  - id: pair_0b888f412e084a05806886d236e30cfc
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667390493220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

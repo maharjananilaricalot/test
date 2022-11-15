@@ -1,9 +1,9 @@
 _id: req_b0fbe7fa2bb743199e9ee8f26b5522b8
 type: Request
 parentId: fld_747a637adaba40bbb68a63292c4009db
-modified: 1666007995560
+modified: 1666077841222
 created: 1666005888842
-url: "{{SYSTEM_URL}}/terms/conditions/31ef992ec7e146deb7c777e7e6150780"
+url: "{{SYSTEM_URL}}/terms/conditions/1367ec6a556048048613b578aed0c70c"
 name: UPDATE
 description: ""
 method: PUT
@@ -12,7 +12,9 @@ body:
   text: |-
     {
     	"title":"Hello",
-    	"termsAndConditions":"ddddd"
+    	"termsAndConditions":"ddddd",
+    	"year":"2023",
+    	"type":"COMPANY"
     }
 parameters: []
 headers:

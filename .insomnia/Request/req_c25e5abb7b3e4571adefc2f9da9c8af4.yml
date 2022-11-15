@@ -1,0 +1,25 @@
+_id: req_c25e5abb7b3e4571adefc2f9da9c8af4
+type: Request
+parentId: fld_9a83fb751ef543859008311fd8e12636
+modified: 1668076344639
+created: 1668076336749
+url: "{{SYSTEM_URL}}/support/unread/count"
+name: UNREAD COUNT
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_983f018fba664173884939f8dcbd75f3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667984033234.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

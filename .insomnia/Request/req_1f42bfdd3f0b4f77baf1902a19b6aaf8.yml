@@ -1,7 +1,7 @@
 _id: req_1f42bfdd3f0b4f77baf1902a19b6aaf8
 type: Request
 parentId: fld_747a637adaba40bbb68a63292c4009db
-modified: 1666008030856
+modified: 1666077965487
 created: 1666000282068
 url: "{{SYSTEM_URL}}/terms/conditions/search"
 name: SEARCH
@@ -14,7 +14,7 @@ body:
     	"pageSize":10,
     	"pageNumber":1,
     	"searchParameter":"",
-    	"sortField":"title",
+    	"sortField":"type",
     	"sortOrder":"desc"
     }
 parameters: []

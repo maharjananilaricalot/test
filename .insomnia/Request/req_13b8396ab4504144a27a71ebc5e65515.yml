@@ -1,0 +1,25 @@
+_id: req_13b8396ab4504144a27a71ebc5e65515
+type: Request
+parentId: fld_5c576123d4b74b728812128c46812b9f
+modified: 1668078338700
+created: 1668077862934
+url: "{{ADMIN_URL}}/support/search/detail/5d288c94cbf646dbb86d4aebaa423839"
+name: SEARCH DETAIL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_983f018fba664173884939f8dcbd75f3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667915054012.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

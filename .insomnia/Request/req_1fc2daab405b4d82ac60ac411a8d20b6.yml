@@ -1,0 +1,25 @@
+_id: req_1fc2daab405b4d82ac60ac411a8d20b6
+type: Request
+parentId: fld_5c576123d4b74b728812128c46812b9f
+modified: 1668078296812
+created: 1668077862929
+url: "{{ADMIN_URL}}/support/status"
+name: STATUS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_983f018fba664173884939f8dcbd75f3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1668076005531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

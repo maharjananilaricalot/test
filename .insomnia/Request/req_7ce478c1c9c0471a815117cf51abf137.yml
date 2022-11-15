@@ -1,0 +1,35 @@
+_id: req_7ce478c1c9c0471a815117cf51abf137
+type: Request
+parentId: fld_5c576123d4b74b728812128c46812b9f
+modified: 1668078437633
+created: 1668077862938
+url: "{{ADMIN_URL}}/support/5d288c94cbf646dbb86d4aebaa423839"
+name: "UPDATE "
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "subject":"dtest",
+    	"problem":"problem",
+    	"note":"note"
+    }
+parameters: []
+headers:
+  - id: pair_983f018fba664173884939f8dcbd75f3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_1bc74e6270e54644a4610db58b4ff701
+authentication: {}
+metaSortKey: -1667897809206.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

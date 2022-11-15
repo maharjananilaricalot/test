@@ -1,0 +1,25 @@
+_id: req_47e3924185d14f509e951a9cc4e815a7
+type: Request
+parentId: fld_2732c6890f6146ce9c60ea6440d651e8
+modified: 1666164235322
+created: 1666164145021
+url: "{{SYSTEM_URL}}/company/search/detail/64cbb4283bb74f7099ae65466a3d6553"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e8442c98181244c18791f8e003428179
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666164145021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_f92bc707ad7e474d816deea522092758
 type: Request
 parentId: fld_747a637adaba40bbb68a63292c4009db
-modified: 1666008020067
+modified: 1666077965851
 created: 1666002475634
 url: "{{SYSTEM_URL}}/terms/conditions"
 name: ADD
@@ -12,7 +12,9 @@ body:
   text: |-
     {
     	"title":"PHello World1",
-    	"termsAndConditions":"sdfadsfadsfadfadfadfa"
+    	"termsAndConditions":"sdfadsfadsfadfadfadfa",
+    	"year":"2023",
+    	"type":"COMPANY"
     }
 parameters: []
 headers:

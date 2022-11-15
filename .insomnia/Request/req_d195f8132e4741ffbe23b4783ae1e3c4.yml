@@ -1,0 +1,25 @@
+_id: req_d195f8132e4741ffbe23b4783ae1e3c4
+type: Request
+parentId: fld_a3804ccaceb64ad28469690f55ce616a
+modified: 1668340934102
+created: 1668337296790
+url: "{{ADMIN_URL}}/sms-template"
+name: FIELDS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_97ed581cd75b4f0fa3ecf613d5740e66
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1668337296790
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

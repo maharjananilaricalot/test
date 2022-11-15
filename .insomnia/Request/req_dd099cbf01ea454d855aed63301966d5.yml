@@ -1,7 +1,7 @@
 _id: req_dd099cbf01ea454d855aed63301966d5
 type: Request
 parentId: fld_58b580a2ec724bcd80b2979de82dc4d7
-modified: 1666009865414
+modified: 1667907942641
 created: 1666009678031
 url: "{{CLIENT_URL}}/auths"
 name: LOGIN
@@ -11,14 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {
-        "userName": "devorg_client@yopmail.com",
+        "userName": "jui@yopmail.com",
         "password": "TEST@123",
-        "accessCode": "devorg"
+        "accessCode": "kura"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_67e753d45b254cee8d074634f66dfaa5
 authentication: {}
 metaSortKey: -1666009678031
 isPrivate: false

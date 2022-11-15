@@ -1,7 +1,7 @@
 _id: req_2643800d33ee4b92befaf53bb9679492
 type: Request
 parentId: fld_c31ab42221fd4ba2acd12b4588ba4745
-modified: 1665475533384
+modified: 1668405193037
 created: 1664272769332
 url: "{{ADMIN_URL}}/clients/search/business"
 name: SEARCH
@@ -17,7 +17,6 @@ body:
         "sortField": "filingStatus",
         "sortOrder": "asc",
         "tags": [],
-    	"taxRepresentativeSearchParameter":"c",
     	"taxRepresentatives":[""]
     }
 parameters: []

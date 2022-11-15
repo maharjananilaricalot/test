@@ -1,0 +1,38 @@
+_id: req_33002526b11c4f31be5e065eb6405b93
+type: Request
+parentId: fld_06376cb25f714a9e8ec08a9da6fd6144
+modified: 1668410841383
+created: 1668410841200
+url: "{{ADMIN_URL}}/auths/device"
+name: DEVICE LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"deviceId": "5ffc5642e128c277",
+    	"token": "eyJzY2hlbWEiOiJEZXZPcmciLCJpZCI6ImRhNGQ2N2M2ZjFjYzQ1ZjY5ZmI3NDZiZjY2N2MxMTMzIiwidGltZSI6IjIwMjItMDQtMjZUMTg6MDA6MjMuMTc4Nzc0IiwidG9rZW4iOiI1ZmZjNTY0MmUxMjhjMjc3In0="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_992831623e9349b1be55233bccc4e100
+  - name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    id: pair_4db944da784c4e3eb805f187717ee84d
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1662354024516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: off

@@ -1,0 +1,25 @@
+_id: req_fdce7b9e4762455cb900d9f5ab16ea8d
+type: Request
+parentId: wrk_197ac2d6ebab41079f5ae5a6e3c2288e
+modified: 1667907959290
+created: 1667888101328
+url: "{{CLIENT_URL}}/infos/associations/4eb25a4849ec48cabf5b4ed9565d8a1b"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8aa46863e03e405582bc9f4c34245271
+    name: "{{TOKEN_HEADER}}"
+    value: "{{CLIENT_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667851601469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_553e895148a04715aea5e0a8f5f28785
+type: Request
+parentId: fld_8042867595d846cfb881891608f80479
+modified: 1667731790927
+created: 1667551953103
+url: "{{ADMIN_URL}}/clients/report/individual"
+name: EXPORT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "pageNumber": 1,
+        "pageSize": 25,
+        "searchParameter": "",
+        "tags": [],
+        "taxRepresentatives": [
+            "arica_shivangi@yopmail.com"
+        ]
+    }
+parameters: []
+headers:
+  - id: pair_62197d906315468eadd6137196391770
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667551953103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

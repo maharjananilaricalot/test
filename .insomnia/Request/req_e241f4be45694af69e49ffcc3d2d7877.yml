@@ -1,0 +1,26 @@
+_id: req_e241f4be45694af69e49ffcc3d2d7877
+type: Request
+parentId: wrk_197ac2d6ebab41079f5ae5a6e3c2288e
+modified: 1667896521045
+created: 1667888002265
+url: "{{CLIENT_URL}}/infos/business/associations-info/65c0a77dede14b71be64ba114\
+  756ddaf"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8aa46863e03e405582bc9f4c34245271
+    name: "{{TOKEN_HEADER}}"
+    value: "{{CLIENT_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667888002265
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

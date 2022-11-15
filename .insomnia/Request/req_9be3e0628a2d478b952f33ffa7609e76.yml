@@ -1,0 +1,36 @@
+_id: req_9be3e0628a2d478b952f33ffa7609e76
+type: Request
+parentId: fld_43e0ed6cec8645e4a35f68e40a61b8d1
+modified: 1668077592337
+created: 1668077494245
+url: "{{SYSTEM_URL}}/support/conversation/search"
+name: SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"pageNumber":1,
+    	"pageSize":10,
+    	"threadId":"",
+    	"ticketId":"5d288c94cbf646dbb86d4aebaa423839",
+    	"accessCode":"gami"
+    }
+parameters: []
+headers:
+  - id: pair_a167d8418e0a4f37b54aeac80a202080
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668076659844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

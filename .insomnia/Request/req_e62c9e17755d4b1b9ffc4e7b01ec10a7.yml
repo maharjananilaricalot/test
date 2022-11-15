@@ -1,7 +1,7 @@
 _id: req_e62c9e17755d4b1b9ffc4e7b01ec10a7
 type: Request
 parentId: fld_06376cb25f714a9e8ec08a9da6fd6144
-modified: 1666010407634
+modified: 1668340362427
 created: 1662293310862
 url: "{{ADMIN_URL}}/auths"
 name: LOGIN
@@ -19,10 +19,10 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_efade3a07ead480a9588a1a2f0457312
+    id: pair_992831623e9349b1be55233bccc4e100
   - name: "{{TIME_ZONE_HEADER}}"
     value: "{{TIME_ZONE}}"
-    id: pair_a5806e8f4ebb4c01958efdb52f257fe6
+    id: pair_4db944da784c4e3eb805f187717ee84d
 authentication:
   type: basic
   useISO88591: false

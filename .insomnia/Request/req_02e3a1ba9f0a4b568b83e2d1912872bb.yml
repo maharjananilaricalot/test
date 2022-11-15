@@ -1,0 +1,25 @@
+_id: req_02e3a1ba9f0a4b568b83e2d1912872bb
+type: Request
+parentId: fld_e0cc35c51b28490492f6bff0fceb8fe0
+modified: 1667815307808
+created: 1667815200673
+url: "{{ADMIN_URL}}/clients/download/sample"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4a30a2899a4744059d30be8a1643f320
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667815200673
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

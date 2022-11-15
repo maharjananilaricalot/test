@@ -1,9 +1,9 @@
 _id: req_8c3e92fc3c074aa795fcf90acbf05670
 type: Request
 parentId: fld_aa7d6be19d9c4fce88c77c252a49ac6e
-modified: 1665564011639
+modified: 1667194426849
 created: 1665564008652
-url: "{{ADMIN_URL}}/ping/enable"
+url: ""
 name: ENABLE PING
 description: ""
 method: POST

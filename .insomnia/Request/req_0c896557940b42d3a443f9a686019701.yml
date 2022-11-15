@@ -1,0 +1,21 @@
+_id: req_0c896557940b42d3a443f9a686019701
+type: Request
+parentId: fld_747a637adaba40bbb68a63292c4009db
+modified: 1666265809199
+created: 1666091181730
+url: "{{SYSTEM_URL}}/terms/conditions/public"
+name: LATEST TERMS AND CONDITIONS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1666091181730
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

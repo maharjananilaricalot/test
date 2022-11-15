@@ -1,0 +1,91 @@
+_id: req_1677cd16dbe6442a911305fc32e9fc00
+type: Request
+parentId: fld_56c307d485584e76978dcf69803d261a
+modified: 1667302635786
+created: 1666265471130
+url: ""
+name: REGISTRATION COMPLETE
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_42bf77ae33bb4a07abb59007a5056b88
+      name: title
+      value: regi pvt.ltd
+      description: ""
+    - id: pair_f4d6b08622fd45918b8cd8742dd5d7b6
+      name: description
+      value: ""
+      description: ""
+    - id: pair_c02136b429c8424f800ea156485ddb03
+      name: efin
+      value: "244444"
+      description: ""
+    - id: pair_f13c9070441a4839850d438ea9e1e59d
+      name: accessCode
+      value: regi
+      description: ""
+    - id: pair_f9f575bb782b491f9751997e624e80cd
+      name: activationKeyId
+      value: e65191c924bc47d58afc410cfb9fef3f
+      description: ""
+    - id: pair_ded32fbdbc8d4b79ab559c93a0eba6a3
+      name: email
+      value: regi_test@yopmail.com
+      description: ""
+    - id: pair_32707bb12155460fb53508b5f571a561
+      name: useDefaultSmtp
+      value: "true"
+      description: ""
+    - id: pair_2e0b6f0e37c84270963511dee19f47ee
+      name: smtpInfo
+      value: zAGDb0pc8Wf/FuwR3GJ5xsX5sk+zxiXvwSDKCvTozndv0SdMdhwiKw==
+      description: ""
+    - id: pair_11978f51014046e48c7d3566c9af4928
+      name: thirdPartyPaymentInfos
+      value: 4x5fs6Kau/Rp2VG46wgXF+bNRTuoAQGf5CzStfqvM8qmiSUTNxkNx8s431Xo6BUy
+      description: ""
+    - id: pair_a7fa99b869ca4bad8d99155868b80b04
+      name: contactInfos
+      value: '[{"firstName":"Anil","lastName":"Maharjan","cellPhone":"2222111212","email":"regi_test@yopmail.com","title":"CEO"}]'
+      description: ""
+    - id: pair_ce4489e3031549ca91a22202c5f43e87
+      name: addressInfos
+      value: '[{"state":"AL","city":"fffff","street":"dddddd","zipCode":"33311","cellPhone":"2222111212"}]'
+      description: ""
+    - id: pair_f1b30423435c46e9a767ed36a25e88a1
+      name: icon
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/maharjananil/Downloads/1657701972762.jpeg
+    - id: pair_f04e7d45bf3843bd93685a16bb49e791
+      name: logo
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/maharjananil/Downloads/1657701972762.jpeg
+    - id: pair_3ba1e8ad608543dabe2aa63e1765c79e
+      name: favicon
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/maharjananil/Downloads/1657701972762.jpeg
+    - id: pair_9db61cc005a546af8be255584921265a
+      name: termsAndConditionsId
+      value: 443834a1c10d4be8b244733b8076ae58
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1666265471130
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_15e434872c394f68af7578f3919b9d90
+type: Request
+parentId: fld_2732c6890f6146ce9c60ea6440d651e8
+modified: 1668328783997
+created: 1666164054495
+url: "{{SYSTEM_URL}}/company/search"
+name: SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"searchParameter":"company7"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4cfde8cf687946829c8e14c0fe3f30fb
+  - id: pair_8784ed52c48345aea509a781f8ba4f54
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666164054495
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

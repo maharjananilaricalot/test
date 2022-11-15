@@ -1,0 +1,25 @@
+_id: req_561695866c3044a2a43b8567e1c9faf1
+type: Request
+parentId: fld_747a637adaba40bbb68a63292c4009db
+modified: 1667366438152
+created: 1667366238282
+url: "{{SYSTEM_URL}}/terms/conditions/fields/COMPANY_TERMS_CONDITIONS"
+name: FIELDS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_09e27b0862b04e89a04285bda87a763d
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666815753182.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

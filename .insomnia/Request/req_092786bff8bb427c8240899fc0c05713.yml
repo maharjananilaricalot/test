@@ -1,0 +1,32 @@
+_id: req_092786bff8bb427c8240899fc0c05713
+type: Request
+parentId: fld_a3804ccaceb64ad28469690f55ce616a
+modified: 1668405152527
+created: 1668340010311
+url: "{{ADMIN_URL}}/sms-template/search"
+name: SEARCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - id: pair_97ed581cd75b4f0fa3ecf613d5740e66
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668142309815.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_56169d34349b4cc7831b29c845ecf693
+type: Request
+parentId: fld_c31ab42221fd4ba2acd12b4588ba4745
+modified: 1667972133242
+created: 1667733212743
+url: "{{ADMIN_URL}}/clients/business/view-data"
+name: VIEW EID
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "isAdmin": true,
+        "clientType": "business",
+        "id": "e3ac7cc819c14172b09b4788cd488802",
+        "type": "employerIdNumber"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e7bccbb055d540bbaf57acec5edfecdf
+  - id: pair_51f2648607fa4102b491aa2a1785f5ee
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667733212743
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

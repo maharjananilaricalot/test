@@ -1,0 +1,25 @@
+_id: req_c7ea0d7363c441ddb8b7103bd1f402ce
+type: Request
+parentId: fld_d4ab00cea7e64cefacc3d46db32cd301
+modified: 1668328827532
+created: 1667302292177
+url: "{{SYSTEM_URL}}/company/on-boarding/69491ea712af4a5dbba79fa8a0c5108d"
+name: "DELETE ONBOARDING "
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_8784ed52c48345aea509a781f8ba4f54
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666128153744.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

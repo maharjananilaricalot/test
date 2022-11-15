@@ -1,0 +1,32 @@
+_id: req_650c69a402cf4063aff286b5789ecf81
+type: Request
+parentId: fld_9a83fb751ef543859008311fd8e12636
+modified: 1668077188906
+created: 1668077093008
+url: ""
+name: CHANGE STATUS
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "status": "PARKED"
+    }
+parameters: []
+headers:
+  - id: pair_983f018fba664173884939f8dcbd75f3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667903557475.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

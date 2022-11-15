@@ -1,0 +1,32 @@
+_id: req_2e4113e60b66491dac750817dfc85a10
+type: Request
+parentId: fld_d6e9ab7ba56546e89ba4a2bee28b0437
+modified: 1668053063930
+created: 1667796713651
+url: "{{SYSTEM_URL}}/migrate/ein"
+name: MASK EIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code":"gami"
+    }
+parameters: []
+headers:
+  - id: pair_e01ddf2105204d7292a25fc0d2f9d1ee
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667796713651
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

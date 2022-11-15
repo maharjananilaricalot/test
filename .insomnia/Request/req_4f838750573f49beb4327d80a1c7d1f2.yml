@@ -1,0 +1,26 @@
+_id: req_4f838750573f49beb4327d80a1c7d1f2
+type: Request
+parentId: fld_aa7d6be19d9c4fce88c77c252a49ac6e
+modified: 1667194451803
+created: 1667194430779
+url: "{{ADMIN_URL}}/ping"
+name: PING
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b65fff9474b341a2bd191a59137167bd
+authentication: {}
+metaSortKey: -1665563420547.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

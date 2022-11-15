@@ -1,0 +1,26 @@
+_id: req_541bbbdd145b4531b0e243361e97afb0
+type: Request
+parentId: fld_43e0ed6cec8645e4a35f68e40a61b8d1
+modified: 1668077598036
+created: 1668077547769
+url: "{{SYSTEM_URL}}/support/conversation/search/thread/5d288c94cbf646dbb86d4ae\
+  baa423839"
+name: SEARCH THREAD
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a167d8418e0a4f37b54aeac80a202080
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1668076332687.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

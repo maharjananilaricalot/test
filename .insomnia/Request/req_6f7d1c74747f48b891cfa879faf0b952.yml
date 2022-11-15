@@ -1,0 +1,25 @@
+_id: req_6f7d1c74747f48b891cfa879faf0b952
+type: Request
+parentId: fld_747a637adaba40bbb68a63292c4009db
+modified: 1666265790822
+created: 1666092252894
+url: "{{SYSTEM_URL}}/terms/conditions/years"
+name: YEARS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_178559babacc4f72a3eefc8e1a5d1e94
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666092252894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

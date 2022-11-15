@@ -1,0 +1,33 @@
+_id: req_41c4b2779b8840efb470a18b1aba61ee
+type: Request
+parentId: fld_e723760ac1634fbc9ae4e439ef658177
+modified: 1667390919680
+created: 1667390896285
+url: "{{SYSTEM_URL}}/config/decrypt/devorg"
+name: DECRYPT WITH ACCESS CODE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"value":"zEN5NEiLcBw="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d696628c9d6241dea8caedf52216444f
+  - id: pair_0b888f412e084a05806886d236e30cfc
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667372149731.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

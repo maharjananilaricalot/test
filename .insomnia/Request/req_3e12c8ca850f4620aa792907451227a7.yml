@@ -1,0 +1,34 @@
+_id: req_3e12c8ca850f4620aa792907451227a7
+type: Request
+parentId: fld_d4ab00cea7e64cefacc3d46db32cd301
+modified: 1668328992185
+created: 1667302638942
+url: "{{SYSTEM_URL}}/company/on-boarding/complete"
+name: COMPLETE ONBOARDING
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"entityId":"2ff14025f4d94c08bd1d837b6fe6c3b6",
+    	"email":"company8_aricalot@yopmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6fbc8763236447d2878fc54773bc56f9
+  - id: pair_95f5e26ce5c54927bfa5cdad6c20178f
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666128153719.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

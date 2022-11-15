@@ -1,9 +1,9 @@
 _id: req_fa34cbbaf7354ad6b74441572e7575c7
 type: Request
 parentId: fld_5ce27a71894f467b856b9e309faba5b4
-modified: 1666010370921
+modified: 1666082912113
 created: 1666009976769
-url: "{{CLIENT_URL}}/clients/terms/conditions/Hello World"
+url: "{{CLIENT_URL}}/clients/terms/conditions"
 name: GET BY TITLE
 description: ""
 method: GET

@@ -1,17 +1,17 @@
-_id: req_7b4fde789c3145edb8ad1c87246e6279
+_id: req_777a379660f249c29e65fdf6046339b8
 type: Request
-parentId: fld_8a3868615f7d4ed2969273ffda058a52
-modified: 1666009669293
-created: 1666009669293
-url: ""
-name: New Request
+parentId: fld_5ce27a71894f467b856b9e309faba5b4
+modified: 1667366817332
+created: 1667366627632
+url: "{{CLIENT_URL}}/clients/public/terms/conditions/fields"
+name: PUBLIC FIELDS
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1666009669293
+metaSortKey: -1666009976719
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,32 @@
+_id: req_113db962af9f4ec0ac0e216c9ad7838c
+type: Request
+parentId: fld_a3804ccaceb64ad28469690f55ce616a
+modified: 1668340938145
+created: 1668340894437
+url: "{{ADMIN_URL}}/sms-template/search/detail/1023"
+name: DETAILS
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - id: pair_97ed581cd75b4f0fa3ecf613d5740e66
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668109811986.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

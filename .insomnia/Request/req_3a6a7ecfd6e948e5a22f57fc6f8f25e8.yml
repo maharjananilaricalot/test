@@ -1,0 +1,25 @@
+_id: req_3a6a7ecfd6e948e5a22f57fc6f8f25e8
+type: Request
+parentId: fld_d4ab00cea7e64cefacc3d46db32cd301
+modified: 1667901051976
+created: 1667892060938
+url: "{{SYSTEM_URL}}/company/on-boarding/6d444d0bc6fb416b8174c768ef2b23d4"
+name: DETAIL ONBOARDING
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_aea308bf094f4f1cbf0d56deb028d23b
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1667892060938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

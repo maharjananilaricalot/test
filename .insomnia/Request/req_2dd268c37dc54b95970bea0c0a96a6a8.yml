@@ -1,0 +1,25 @@
+_id: req_2dd268c37dc54b95970bea0c0a96a6a8
+type: Request
+parentId: fld_9a83fb751ef543859008311fd8e12636
+modified: 1668076332402
+created: 1668076005531
+url: ""
+name: STATUS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_983f018fba664173884939f8dcbd75f3
+    name: "{{TOKEN_HEADER}}"
+    value: "{{SYSTEM_TOKEN}}"
+    description: ""
+authentication: {}
+metaSortKey: -1668076005531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

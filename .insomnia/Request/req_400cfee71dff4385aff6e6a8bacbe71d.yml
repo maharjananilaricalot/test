@@ -1,0 +1,43 @@
+_id: req_400cfee71dff4385aff6e6a8bacbe71d
+type: Request
+parentId: fld_5d910eb6ead845a29d9f590676723a21
+modified: 1667364236477
+created: 1667292441045
+url: "{{ADMIN_URL}}/invoices/search/report"
+name: SEARCH REPORT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+        "pageNumber": 1,
+        "pageSize": 10,
+        "searchParameter": "",
+        "sortField": null,
+        "paymentMode": [""],
+        "status": ["",""]
+    }
+parameters: []
+headers:
+  - id: pair_5a0d98d4d2b1432ea5d2cd931e4824d7
+    name: "{{TOKEN_HEADER}}"
+    value: "{{TOKEN}}"
+    description: ""
+  - id: pair_4d43080e7a354cb3bfb926f8820b55cb
+    name: "{{TIME_ZONE_HEADER}}"
+    value: "{{TIME_ZONE}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_d63c652013e54fbfa8185f995761ee94
+authentication: {}
+metaSortKey: -1662453587659.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
